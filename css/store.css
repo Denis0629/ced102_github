@@ -1,0 +1,76 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+
+*{
+  box-sizing: border-box;
+}
+
+div.store_photo{
+  background-image: url("../images/16.png");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+h1{
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+div.store_site{
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  /* border: 1px solid black; */
+  margin-bottom: 50px;
+  
+}
+
+
+div.tp_01{
+  display: inline-block;
+  width: 500px;
+  position: relative;
+  bottom: 90px;
+  left: 100px;
+  vertical-align: center;
+  font-size: 18px;
+}
+
+div.tp_map{
+  display: inline-block;
+  position: relative;
+  left: 200px;
+}
+/* ================台中店================ */
+div.store2_site{
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  /* border: 1px solid black; */
+  margin-bottom: 40px;
+  margin-top: 40px;
+
+}
+
+div.tch_01{
+  display: inline-block;
+  position: relative;
+  bottom: 90px;
+  left: 400px;
+  font-size: 18px;
+}
+
+div.tch_map{
+  display: inline-block;
+  position: relative;
+  left: 70px;
+}
+
+hr{
+  width: 1000px;
+  margin: 0 auto;
+}

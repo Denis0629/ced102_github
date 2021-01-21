@@ -1,0 +1,113 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+
+body{
+  margin: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+/* ==============線上登錄說明步驟圖============ */
+div.teaching_step{
+  background-image: url("../images/15.png");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 603px;
+  margin: 0 auto;
+}
+
+div.teaching_step p.step_teaching{
+  margin: 0;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  top: 130px;
+}
+
+div.teaching_step p.step_1, p.step_2, p.step_3, p.step_4{
+  display: inline-block;
+  position: relative;
+  top: 340px;
+  left: 103px;
+  font-size: 25px;
+  margin-right: 150px;
+}
+
+div.teaching_step p.step_1{
+  padding-left: 18px;
+}
+
+/* =============線上表單填寫============== */
+h1{
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  }
+
+  div.warranty_1{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    white-space:pre;
+  }
+  
+  h2{
+    width: 600px;
+  }
+  div.form_list{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  form{
+    width: 600px;
+    display: inline-block;
+  }
+
+  div.form_list form p{
+    margin-left: 80px;
+    
+  }
+
+  div.form_list form p input{
+    width: 300px;
+    height: 30px;
+  }
+
+  div.form_list form button{
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+    height: 35px;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+    /* ===========產品序號說明圖============ */
+  div.sn_show{
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    top: -150px;
+    margin-left: 80px;
+  }
+
+  div.sn_show h2.sn_photo{
+    display: inline-block;
+  }
+
+h2.sn_photo{
+  border: 1px solid black;
+  width: 300px;
+  /* border-radius: 10px; */
+  text-align: center;
+  background: red;
+  color: white;
+}

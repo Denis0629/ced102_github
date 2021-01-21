@@ -1,0 +1,169 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+
+div.DXD00100_photo{
+  background-image: url(../images/21.png);
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 694px;
+  margin: 0 auto;
+  border: 4px sollid gray;
+}
+
+h1{
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+/* =============最新消息上排產品======== */
+div.news_1{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+}
+div.product_1{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  /* border: 1px solid black; */
+}
+div.info_area{
+  display: inline-block;
+  width: 150px;
+  height: 200px;
+  /* border: 1px solid red; */
+  position: relative;
+  bottom: 53px;
+  margin-right: 75px;
+}
+
+div.info_area p,div.info_area2 p,div.info_area3 p{
+  font-size: 16px;
+}
+
+div.info_area p span{
+  font-size: 20px;
+}
+
+div.product_2{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  /* border: 1px solid black; */
+}
+
+div.info_area2{
+  display: inline-block;
+  width: 150px;
+  height: 200px;
+  /* border: 1px solid red; */
+  position: relative;
+  bottom: 53px;
+  margin-right: 75px;
+}
+
+div.info_area2 p.product_no span{
+  font-size: 20px;
+}
+
+div.product_3{
+  width:200px;
+  display: inline-block;
+  /* border: 1px solid black; */
+}
+
+div.info_area3{
+  display: inline-block;
+  width: 150px;
+  height: 200px;
+  /* border: 1px solid red; */
+  position: relative;
+  bottom: 53px;
+}
+
+div.info_area3 p.product_no span{
+  font-size: 20px;
+}
+
+div.info_area3 p.price span{
+  color: red;
+}
+/* ==========最新消息下排產品========== */
+div.news_2{
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 0;
+}
+
+div.product_4,div.product_5{
+  display: inline-block;
+  /* border: 1px solid black;   */
+}
+
+div.info_area4,div.info_area5{
+  display: inline-block;
+  width: 150px;
+  height: 200px;
+  /* border: 1px solid red; */
+  position: relative;
+  bottom: 53px;
+  margin-right: 75px;
+}
+
+div.info_area4 p,div.info_area5 p,div.info_area6 p{
+  font-size: 16px;
+}
+
+div.info_area4 p span,div.info_area5 p span,div.info_area6 p span{
+  font-size: 20px;
+}
+
+div.product_6{
+  width:200px;
+  display: inline-block;
+  /* border: 1px solid black; */
+}
+div.info_area6{
+  display: inline-block;
+  width: 130px;
+  height: 200px;
+  /* border: 1px solid red; */
+  position: relative;
+  bottom: 53px;
+  
+}
+/* =========頁數============ */
+div.pagination_block{
+  font-size: 15px;
+  width: 100%;
+
+}
+
+div.pagination_block ul.pagination{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  
+}
+
+div.pagination_block ul.pagination li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+div.pagination_block ul.pagination li a{
+  text-decoration: none;
+  
+}

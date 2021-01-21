@@ -1,0 +1,167 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+}
+div.speaker{
+  background-image: url("../images/24.png");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 663px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* ==============篩選欄============ */
+/* div.filter{
+  background-image: url("../images/23.png");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+div.product_filter{
+  width: 1200px;
+  height: 310px;
+  background-color:#f0f0f0f0;
+  margin: 0 auto;
+}
+div.product_filter h1{
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}
+
+div.product_filter div.price_list{
+width: 320px;
+display: inline-block;
+margin: 0 40px;
+text-align: center;
+}
+
+div.product_filter div.price_list p.price{
+  font-size: 20px;
+}
+
+div.price_list p.price_range input{
+  width: 120px;
+}
+
+div.type_list{
+  display: inline-block;
+  width: 240px;
+  text-align: center;
+}
+
+div.type_list p.type_1{
+  font-size: 20px;
+}
+
+div.product_filter div.filter_form{
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+div.function_list{
+  display: inline-block;
+  width: 240px;
+  text-align: center;
+}
+
+div.function_list p.function_1{
+  font-size: 20px;
+}
+
+div.color_list{
+  display: inline-block;
+  width: 240px;
+  text-align: center;
+}
+
+div.color_list p.color_list{
+  font-size: 20px;
+}
+
+button{
+  color: white;
+  background-color: black;
+  position: relative;
+  top: 200px;
+  left: 15px;
+  border-radius: 10px;
+}
+/* ================產品================== */
+h1{
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+div.catlog_1,div.catlog_2{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+div.catlog_3{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+div.product_1,div.product_2,div.product_3{
+  width: 396px;
+  display: inline-block;
+  text-align: center;
+}
+
+div.product_2 p span{
+  color: red;
+}
+
+div.product_4,div.product_5,div.product_6{
+  width: 396px;
+  display: inline-block;
+  text-align: center;
+}
+
+div.product_7,div.product_8,div.product_9{
+  width: 396px;
+  display: inline-block;
+  text-align: center;
+}
+/* =========頁數============ */
+div.pagination_block{
+  font-size: 15px;
+  margin-right: 0 auto;
+
+}
+
+div.pagination_block ul.pagination{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  
+}
+
+div.pagination_block ul.pagination li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+div.pagination_block ul.pagination li a{
+  text-decoration: none;
+  
+}

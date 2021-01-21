@@ -1,0 +1,63 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+
+body{
+  margin: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+div.about_us{
+  background-image: url("../images/19.png");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 600px;
+  border: 2px solid gray;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.about_us div.content{
+  width: 500px;
+  position: relative;
+  left: 700px;
+  top: 400px;
+  text-align: center;
+}
+div.about_us div.content p.skill
+{font-size: 30px;
+
+}
+
+div.about_us div p{
+  color: white;
+  font-size: 20px;
+}
+
+h1{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+div.our_description{
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
+span{
+  color: red;
+  font-weight: 1000;
+  font-size: 25px;
+}
+
+div.our_description div.first_1, div.second_2{
+  line-height: 2;
+}
+
+

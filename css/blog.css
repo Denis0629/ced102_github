@@ -1,0 +1,198 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+}
+hr{
+  width: 1180px;
+  margin: 0 auto;
+}
+/* =======開箱及介紹文=========== */
+div.poz_088{
+  width: 1200px;
+  height: 34  0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  /* border: 1px solid black; */
+
+}
+div.poz_content{
+  display: inline-block;
+  width: 700px;
+  position: relative;
+  bottom: 200px;
+  left: 20px;
+}
+
+div.poz_content p.poz_088{
+  margin: 0;
+}
+
+div.poz_content p.poz_088 span{
+  font-size: 20px;
+}
+
+div.poz_content p.poz_1 a {
+  text-decoration: none;
+}
+
+div.poz_photo{
+  display: inline-block;
+  width: 420px;
+  margin-top: 20px;
+  margin-left: 60px;
+  height: 300px;
+}
+/* ===========SGY-666========= */
+
+div.sgy_666{
+  width: 1200px;
+  /* display: inline-block; */
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+p.sgy_666 span{
+  font-size: 20px;
+}
+
+div.sgy_content{
+  width: 700px;
+  display: inline-block;
+  position: relative;
+  bottom: 200px;
+  left: 20px;
+}
+div.sgy_content p.sgy_1 a {
+  text-decoration: none;
+}
+div.sgy_photo{
+  width: 420px;
+  display: inline-block;
+  margin-left: 60px;
+}
+/* ==========xdx-100=============== */
+div.xdx_100{
+  width: 1200px;
+  /* display: inline-block; */
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+p.xdx_100 span{
+  font-size: 20px;
+}
+
+div.xdx_content{
+  width: 700px;
+  display: inline-block;
+  position: relative;
+  bottom: 200px;
+  left: 20px;
+}
+
+div.xdx_content p.xdx_1 a {
+  text-decoration: none;
+}
+
+div.xdx_photo{
+  width: 420px;
+  display: inline-block;
+  margin-left: 60px;
+}
+/* ==========xoz-066================== */
+div.xoz_066{
+  width: 1200px;
+  /* display: inline-block; */
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+p.xoz_066 span{
+  font-size: 20px;
+}
+
+div.xoz_content{
+  width: 700px;
+  display: inline-block;
+  position: relative;
+  bottom: 200px;
+  left: 20px;
+}
+
+div.xoz_content p.xoz_1 a {
+  text-decoration: none;
+}
+
+div.xoz_photo{
+  width: 420px;
+  display: inline-block;
+  margin-left: 60px;
+}
+/* ===========yoy-168============= */
+div.yoy_168{
+  width: 1200px;
+  /* display: inline-block; */
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+p.yoy_168 span{
+  font-size: 20px;
+}
+
+div.yoy_content{
+  width: 700px;
+  display: inline-block;
+  position: relative;
+  bottom: 180px;
+  left: 20px;
+}
+
+div.yoy_content p.yoy_1 a {
+  text-decoration: none;
+}
+
+div.yoy_photo{
+  width: 420px;
+  display: inline-block;
+  margin-left: 60px;
+}
+/* =========頁數============ */
+div.pagination_block{
+  font-size: 15px;
+  width: 100%;
+
+}
+
+div.pagination_block ul.pagination{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  
+}
+
+div.pagination_block ul.pagination li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+div.pagination_block ul.pagination li a{
+  text-decoration: none;
+  
+}
