@@ -1,5 +1,7 @@
 @import "./common/header.css";
 @import "./common/footer.css";
+@import "./common/owl.css";
+
 *{
   box-sizing: border-box;
 }
